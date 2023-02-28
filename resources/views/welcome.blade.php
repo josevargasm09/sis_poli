@@ -11,7 +11,9 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <!-- <link rel="icon" type="image/x-icon" href="{{asset('js/app.js')}}%PUBLIC_URL%/favicon.ico" /> -->
     <link id="theme-link" rel="stylesheet" href="{{asset('assets/themes/lara-light-indigo/theme.css')}}">
-    <link rel="shortcut icon" href="\assets\layout\images\poli.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="{{asset('assets\layout\images\poli.ico')}}" type="image/x-icon">
+    <link id="theme-link" rel="stylesheet" href="{{asset('assets/primeicons/primeicons.css')}}">
+    <script src="{{asset('js/node_modules_chart_js_auto_auto_esm_js.js')}}" defer></script>
     <script src="{{asset('js/app.js')}}" defer></script>
 </head>
 <style type="text/css">
