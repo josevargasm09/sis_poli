@@ -1,0 +1,98 @@
+.autocomplete-dropdown-container{
+     position: fixed;
+    box-shadow: 0 4px 25px -22px black;
+    background-color:#fff;
+}
+.result-search{
+    font-size: 14px;
+    padding: 9px;
+    width:420px;
+}
+.result-search:hover{
+    background-color: #dee2e6;
+}
+.result-search:focus {
+  color: red;
+}
+.result-search:active {
+  color: red;
+}
+.tooltips_span span{
+  display: block;
+  color: black;
+}
+
+.tooltips_span span strong{
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.tooltips_span {
+  position: absolute;
+  min-width: 150px;
+  color: #fff;
+  background-color: hsl(212, 100%, 50%);
+  border: .5px solid hsl(212, 67%, 66%);
+  font-size:11px;
+  font-weight:600;
+  text-transform: uppercase;
+  text-align: left;
+  visibility: visible;
+  padding:4px 4px;
+  border-radius: 10px;
+  top: -100px;
+  z-index: 0;
+  right: -120px;
+};
+
+
+.service {
+  text-align: left;
+  color: red;
+  background-color: red;
+}
+.tooltips_span::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -120px;
+  width: 0;
+  height: 0;
+  
+}
+.leyenda_map{
+  width: 15px;
+  height: 10px;
+  border-radius: 6px;
+  
+}
+
+.leyenda_container{
+  display: flex;
+  align-items: center;
+  
+  
+}
+.leyenda_row{
+  margin-left: 5px;
+  
+}
+.tooltips_span::after{
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -4px;
+  width: 0;
+  height: 0;
+  border-top: 8px solid #AEB6BF;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+ 
+  }
+  .leyenda_container div {
+    display: flex;
+    align-items: center;
+  }

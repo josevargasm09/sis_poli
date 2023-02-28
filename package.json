@@ -1,0 +1,72 @@
+{
+  "name": "sakai-react",
+  "version": "7.0.3-SNAPSHOT",
+  "homepage": ".",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/primefaces/sakai-react.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.13.13",
+    "@fullcalendar/core": "^5.7.2",
+    "@fullcalendar/daygrid": "^5.7.2",
+    "@fullcalendar/interaction": "^5.7.2",
+    "@fullcalendar/react": "^5.7.0",
+    "@fullcalendar/timegrid": "^5.7.2",
+    "@popperjs/core": "^2.10.2",
+    "axios": "^0.26.1",
+    "bootstrap": "^5.1.3",
+    "chart.js": "3.3.2",
+    "classnames": "^2.2.6",
+    "laravel-mix": "^6.0.6",
+    "lodash": "^4.17.19",
+    "postcss": "^8.1.14",
+    "primeflex": "3.1.0",
+    "primeicons": "^5.0.0",
+    "primereact": "7.2.0",
+    "prismjs": "1.9.0",
+    "prop-types": "^15.6.1",
+    "react": "^17.0.1",
+    "react-app-polyfill": "^1.0.6",
+    "react-dom": "^17.0.1",
+    "react-places-autocomplete": "^7.3.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-transition-group": "^4.4.1",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.1.1",
+    "styled-components": "^5.1.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "dependencies": {
+    "google-map-react": "2.2.0",
+    "google-maps-react": "^2.0.6",
+    "react-time-picker-input": "^2.0.10"
+  }
+}

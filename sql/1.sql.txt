@@ -1,0 +1,4 @@
+ALTER TABLE perfil ADD estado varchar(1);
+ALTER TABLE permisos ADD created_at date
+ALTER TABLE permisos ADD updated_at date
+ALTER TABLE permisos ADD deleted_at date
